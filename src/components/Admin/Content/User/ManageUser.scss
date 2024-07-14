@@ -1,0 +1,59 @@
+.manage-user-container {
+    padding: 15px;
+
+    .title {
+        font-weight  : 600;
+        font-size    : 25px;
+        border-bottom: 2px solid blue;
+        border-radius: 50px;
+        width        : 50%;
+        margin       : auto;
+        padding      : 10px;
+    }
+
+    .user-content {
+        .btn-add-new {
+            margin: 10px 0;
+        }
+    }
+}
+
+.modal-add-user {
+    .img-preview {
+        border         : 1px dashed #ccc;
+        height         : 200px;
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+        color          : #bbb;
+
+        img {
+            max-width : 100%;
+            max-height: 100%;
+        }
+    }
+
+    .label-upload {
+        display         : flex;
+        align-items     : center;
+        justify-content : center;
+        gap             : 5px;
+        padding         : 5px 10px;
+        width           : 170px;
+        border-radius   : 5px;
+        background-color: #eee;
+
+        &:hover {
+            cursor          : pointer;
+            background-color: #ddd;
+        }
+    }
+}
+
+.modal-view-detail-user {
+    .user-detail-img {
+        height : 250px;
+        width  : 75%;
+        display: flex;
+    }
+}

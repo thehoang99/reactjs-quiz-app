@@ -1,0 +1,117 @@
+body {
+  overflow: hidden;
+  margin  : 0;
+  padding : 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing : antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.languages {
+  .dropdown-toggle::after {
+    display: none;
+  }
+}
+
+.app-container {
+  .header-container {
+
+    .navbar {
+      z-index         : 10;
+      background-color: #e3f0f4;
+      padding         : 20px 0;
+
+      .btn-login {
+        margin-right    : 10px;
+        padding         : 0 15px;
+        border          : 1px solid #575353;
+        border-radius   : 10px;
+        background-color: white;
+        height          : 40px;
+
+        &:hover {
+          background-color: rgb(216, 216, 216);
+        }
+      }
+
+      .btn-signup {
+        padding         : 0 15px;
+        border          : 1px solid white;
+        border-radius   : 10px;
+        color           : white;
+        background-color: #575353;
+        height          : 40px;
+
+        &:hover {
+          color           : white;
+          background-color: #363636;
+        }
+      }
+
+      .nav-link {
+        &.active {
+          color: #0cb8f1;
+        }
+      }
+    }
+  }
+
+  .main-container {
+    // .sidenav-container {
+    // }
+
+    .app-content {
+      height: calc(100vh - 50px);
+
+      .homepage-container {
+        video {
+          position: fixed;
+          right   : 0;
+          top     : 10px;
+          height  : 100vh;
+          width   : 70vw;
+        }
+
+        .homepage-content {
+          position                  : relative;
+          width                     : 32%;
+          display                   : flex;
+          flex-direction            : column;
+          gap                       : 40px;
+          margin                    : 60px 0 0 45px;
+          background-color          : #f8f4f4;
+          padding                   : 50px 50px 100px;
+          border-top-left-radius    : 80px;
+          border-bottom-right-radius: 80px;
+
+          .title {
+            font-size  : 50px;
+            line-height: 75px;
+          }
+
+          .description {
+            font-style: italic;
+          }
+
+          .started {
+            width           : 210px;
+            border          : none;
+            padding         : 8px 15px;
+            font-size       : larger;
+            color           : rgb(21, 21, 239);
+            background-color: rgb(212, 208, 208);
+            border-radius   : 3px;
+            box-shadow      : 0 8px 16px 0 rgba(40, 40, 40, 0.2), 0 6px 20px 0 rgba(40, 40, 40, 0.2);
+
+            &:hover {
+              color           : rgba($color: rgb(85, 85, 245), $alpha: 0.7);
+              background-color: rgb(225, 223, 223);
+            }
+          }
+        }
+      }
+    }
+  }
+}

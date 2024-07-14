@@ -1,0 +1,242 @@
+{
+    "homepage": {
+        "title": "Cách tốt nhất để luyện kiến thức!",
+        "description": "Ứng dụng của tôi giúp bạn tạo và quản lý câu hỏi hiệu quả. Với giao diện thân thiện, hỗ trợ nhiều loại câu hỏi, bạn có thể tạo bài quiz chất lượng cao một cách nhanh chóng...",
+        "started": {
+            "logined": "Bắt đầu làm bài",
+            "noLogin": "Hãy bắt đầu ngay (miễn phí)"
+        },
+        "auth": {
+            "login": "Đăng nhập",
+            "register": "Đăng ký"
+        }
+    },
+    "header": {
+        "page": {
+            "home": "Trang chủ",
+            "user": "Người dùng",
+            "admin": "Quản trị viên"
+        },
+        "setting": {
+            "change": "Đổi mật khẩu",
+            "logout": "Đăng xuất"
+        },
+        "auth": {
+            "login": "Đăng nhập",
+            "register": "Đăng ký"
+        }
+    },
+    "login": {
+        "header": {
+            "question": "Bạn chưa có tài khoản?",
+            "register": "Đăng ký"
+        },
+        "description": "Xin chào, bạn là ai?",
+        "form": {
+            "email": "Email",
+            "password": "Mật khẩu",
+            "forgot": "Quên mật khẩu?",
+            "logged": "Đang đăng nhập...",
+            "login": "Đăng nhập"
+        },
+        "home": "Trở lại trang home"
+    },
+    "register": {
+        "header": {
+            "question": "Bạn đã có tài khoản?",
+            "login": "Đăng nhập"
+        },
+        "description": "Tạo tài khoản mới",
+        "form": {
+            "email": "Email",
+            "username": "Tên thay thế",
+            "password": "Mật khẩu",
+            "submit": "Tạo miễn phí"
+        },
+        "home": "Trở lại trang home"
+    },
+    "notfound": {
+        "title": "404 Trang không tồn tại!",
+        "des": "Chúng tôi xin lỗi nhưng trang bạn đang tìm kiếm không tồn tại.",
+        "home": "Trở lại trang home"
+    },
+    "listquiz": {
+        "title": "Đề thi",
+        "start": "Bắt đầu ngay",
+        "invalid": "Hiện tại, bạn không có câu hỏi nào!"
+    },
+    "detailquiz": {
+        "header": {
+            "home": "Trang chủ",
+            "users": "Người dùng",
+            "quiz": "Đề thi"
+        },
+        "title": "Đề thi",
+        "footer": {
+            "prev": "Trước",
+            "next": "Sau",
+            "submit": "Nộp bài"
+        }
+    },
+    "question": {
+        "title": "Câu hỏi"
+    },
+    "resultQuiz": {
+        "title": "Kết quả!",
+        "total": {
+            "question": "Tổng số câu hỏi: ",
+            "answer": "Số câu trả lời đúng: "
+        },
+        "result": "Xem đáp án",
+        "close": "Đóng"
+    },
+    "adminSide": {
+        "dashboard": "Thống kê",
+        "manage": {
+            "user": "Quản lý người dùng",
+            "quiz": "Quản lý đề thi",
+            "question": "Quản lý câu hỏi"
+        },
+        "fb": "Xem facebook"
+    },
+    "dashboard": {
+        "title": "Thông kê ứng dụng",
+        "total": {
+            "user": "Tổng người dùng",
+            "quiz": "Tổng đề thi",
+            "question": "Tổng câu hỏi",
+            "answer": "Tổng đáp án"
+        }
+    },
+    "managaUser": {
+        "title": "Quản lý người dùng",
+        "add": "Thêm mới"
+    },
+    "tableUser": {
+        "username": "Tên thay thế",
+        "email": "Email",
+        "role": "Vai trò",
+        "action": "Hành động",
+        "invalid": "Hiện tại, không có dữ liệu!"
+    },
+    "createUser": {
+        "title": "Thêm người dùng mới",
+        "form": {
+            "email": "Email",
+            "password": "Mật khẩu",
+            "username": "Tên thay thế",
+            "role": "Vai trò",
+            "upload": "Tải ảnh lên",
+            "preview": "Xem trước ảnh"
+        },
+        "close": "Đóng",
+        "save": "Tạo"
+    },
+    "updateUser": {
+        "title": "Cập nhật người dùng",
+        "form": {
+            "email": "Email",
+            "username": "Tên thay thế",
+            "role": "Vai trò",
+            "upload": "Tải ảnh lên",
+            "preview": "Xem trước ảnh"
+        },
+        "close": "Đóng",
+        "save": "Cập nhật"
+    },
+    "detailUser": {
+        "title": "Chi tiết người dùng",
+        "table": {
+            "id": "Mã định danh",
+            "username": "Tên thay thế",
+            "notName": "Không có tên thay thế",
+            "email": "Email",
+            "role": "Vai trò",
+            "image": "Hình ảnh",
+            "notImage": "Không có hình ảnh"
+        },
+        "close": "Đóng"
+    },
+    "deleteUser": {
+        "title": "Xác nhận xóa người dùng",
+        "description": "Bạn có muốn xóa người dùng này không?",
+        "email": "Email: ",
+        "ok": "Đồng ý",
+        "close": "Đóng"
+    },
+    "manageQuiz": {
+        "title": "Quản lý đề thi",
+        "add": "Thêm mới"
+    },
+    "tableQuiz": {
+        "name": "Tên",
+        "description": "Mô tả",
+        "difficulty": "Độ khó",
+        "action": "Hành động",
+        "invalid": "Hiện tại, không có dữ liệu!"
+    },
+    "manageQA": {
+        "title1": "Thông tin đề thi",
+        "title2": "Cập nhật câu hỏi và câu trả lời",
+        "question": "Mô tả câu hỏi",
+        "answer": "Câu trả lời",
+        "save": "Lưu"
+    },
+    "addQuiz": {
+        "title": "Thêm mới đề thi",
+        "form": {
+            "name": "Tên",
+            "description": "Mô tả",
+            "upload": "Tải ảnh lên",
+            "preview": "Xem trước ảnh"
+        },
+        "save": "Lưu",
+        "close": "Đóng"
+    },
+    "deleteQuiz": {
+        "title": "Xác nhận xóa đề thi",
+        "description": "Bạn có muốn xóa đề thi này không?",
+        "name": "Tên: ",
+        "confirm": "Xác nhận",
+        "close": "Đóng"
+    },
+    "updateQuiz": {
+        "title": "Cập nhật đề thi",
+        "form": {
+            "name": "Tên",
+            "description": "Mô tả",
+            "upload": "Tải ảnh lên",
+            "preview": "Xem trước ảnh"
+        },
+        "update": "Cập nhật",
+        "close": "Đóng"
+    },
+    "assignQuiz": {
+        "title": "Gắn đề thi cho người dùng",
+        "description": "Bạn muốn giao đề thi này cho ai làm?",
+        "name": "Tên: ",
+        "difficulty": "Độ khó: ",
+        "assign": "Giao",
+        "close": "Đóng"
+    },
+    "manageQuestion": {
+        "title": "Quản lý câu hỏi",
+        "quiz": {
+            "title": "Thông tin đề thi"
+        },
+        "qa": {
+            "title": "Thêm câu hỏi và câu trả lời",
+            "question": "Mô tả câu hỏi",
+            "answer": "Câu trả lời"
+        },
+        "save": "Lưu"
+    },
+    "chagePass": {
+        "title": "Đổi mật khẩu",
+        "current": "Mật khẩu hiện tại",
+        "new": "Mật khẩu mới",
+        "confirm": "Xác nhận mật khẩu mới",
+        "save": "Lưu",
+        "close": "Đóng"
+    }
+}

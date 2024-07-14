@@ -1,0 +1,18 @@
+.list-quiz-container {
+    display        : flex;
+    flex-wrap      : wrap;
+    gap            : 50px;
+    justify-content: center;
+    padding-bottom : 50px;
+
+    .card {
+        .card-img-top {
+            width     : 100%;
+            max-height: 400px;
+        }
+    }
+
+    .info-no-question {
+        font-size: 25px;
+    }
+}

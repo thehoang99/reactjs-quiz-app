@@ -1,0 +1,238 @@
+{
+    "homepage": {
+        "title": "There's a better way to practice!",
+        "description": "Our app helps you create and manage question forms effortlessly. With a user-friendly interface, support for various question types, you can quickly generate high-quality quizzes...",
+        "started": {
+            "logined": "Doing quizz now!",
+            "noLogin": "Get's started. It's free"
+        }
+    },
+    "header": {
+        "page": {
+            "home": "Home",
+            "user": "Users",
+            "admin": "Admin"
+        },
+        "setting": {
+            "change": "Change password",
+            "logout": "Log out"
+        },
+        "auth": {
+            "login": "Login",
+            "register": "Sign up"
+        }
+    },
+    "login": {
+        "header": {
+            "question": "Don't have an account yet?",
+            "register": "Sign up"
+        },
+        "description": "Hello, who's this?",
+        "form": {
+            "email": "Email",
+            "password": "Password",
+            "forgot": "Forgot password?",
+            "logged": "Currently logged...",
+            "login": "Log in to Quizz App"
+        },
+        "home": "Go to the Home"
+    },
+    "register": {
+        "header": {
+            "question": "Already have an account?",
+            "login": "Login"
+        },
+        "description": "Create a new account to start",
+        "form": {
+            "email": "Email",
+            "username": "Username",
+            "password": "Password",
+            "submit": "Create the free account"
+        },
+        "home": "Go to the Home"
+    },
+    "notfound": {
+        "title": "404 page not found!",
+        "des": "We are sorry but the page you are looking for does not exist.",
+        "home": "Go to the Home"
+    },
+    "listquiz": {
+        "title": "Quiz",
+        "start": "Start Now",
+        "invalid": "No question available now!"
+    },
+    "detailquiz": {
+        "header": {
+            "home": "Home",
+            "users": "Users",
+            "quiz": "Quiz"
+        },
+        "title": "Quiz",
+        "footer": {
+            "prev": "Prev",
+            "next": "Next",
+            "submit": "Finish"
+        }
+    },
+    "question": {
+        "title": "Question"
+    },
+    "resultQuiz": {
+        "title": "Your Result!",
+        "total": {
+            "question": "Total questions: ",
+            "answer": "Total correct answers: "
+        },
+        "result": "Show answers",
+        "close": "Close"
+    },
+    "adminSide": {
+        "dashboard": "Dashboard",
+        "manage": {
+            "user": "Users Management",
+            "quiz": "Quiz Management",
+            "question": "Question Management"
+        },
+        "fb": "View Facebook"
+    },
+    "dashboard": {
+        "title": "Analytics DashBoard",
+        "total": {
+            "user": "Total Users",
+            "quiz": "Total Quizzes",
+            "question": "Total Questions",
+            "answer": "Total Answers"
+        }
+    },
+    "managaUser": {
+        "title": "Manage User",
+        "add": "Add new user"
+    },
+    "tableUser": {
+        "username": "Username",
+        "email": "Email",
+        "role": "Role",
+        "action": "Action",
+        "invalid": "No data available!"
+    },
+    "createUser": {
+        "title": "Add new user",
+        "form": {
+            "email": "Email",
+            "password": "Password",
+            "username": "Username",
+            "role": "Role",
+            "upload": "Upload file image",
+            "preview": "Preview Image"
+        },
+        "close": "Close",
+        "save": "Save"
+    },
+    "updateUser": {
+        "title": "Update the User",
+        "form": {
+            "email": "Email",
+            "username": "Username",
+            "role": "Role",
+            "upload": "Upload file image",
+            "preview": "Preview Image"
+        },
+        "close": "Close",
+        "save": "Save"
+    },
+    "detailUser": {
+        "title": "Detail the user",
+        "table": {
+            "id": "Id",
+            "username": "Username",
+            "notName": "User have not username",
+            "email": "Email",
+            "role": "Role",
+            "image": "Image",
+            "notImage": "User have not image"
+        },
+        "close": "Close"
+    },
+    "deleteUser": {
+        "title": "Confrim delete the user",
+        "description": "Do you want to delete this user?",
+        "email": "Email: ",
+        "ok": "OK",
+        "close": "Close"
+    },
+    "manageQuiz": {
+        "title": "Manage Quiz",
+        "add": "Add new quiz"
+    },
+    "tableQuiz": {
+        "name": "Name",
+        "description": "Description",
+        "difficulty": "Difficulty",
+        "action": "Action",
+        "invalid": "No data available!"
+    },
+    "manageQA": {
+        "title1": "Quiz information",
+        "title2": "Update questions and answers",
+        "question": "Question description",
+        "answer": "Answer",
+        "save": "Save"
+    },
+    "addQuiz": {
+        "title": "Add new quiz",
+        "form": {
+            "name": "Name",
+            "description": "Description",
+            "upload": "Upload file image",
+            "preview": "Preview Image"
+        },
+        "save": "Save",
+        "close": "Close"
+    },
+    "deleteQuiz": {
+        "title": "Confirm delete quiz",
+        "description": "Do you want to delete this quiz?",
+        "name": "Name: ",
+        "confirm": "Confirm",
+        "close": "Close"
+    },
+    "updateQuiz": {
+        "title": "Update the Quiz",
+        "form": {
+            "name": "Name",
+            "description": "Description",
+            "upload": "Upload file image",
+            "preview": "Preview Image"
+        },
+        "update": "Update",
+        "close": "Close"
+    },
+    "assignQuiz": {
+        "title": "Assign quiz to the user",
+        "description": "Who's user, do you want to assign this quiz?",
+        "name": "Name: ",
+        "difficulty": "Difficulty: ",
+        "assign": "Assign",
+        "close": "Close"
+    },
+    "manageQuestion": {
+        "title": "Manage Question",
+        "quiz": {
+            "title": "Quiz information"
+        },
+        "qa": {
+            "title": "Add questions and answers",
+            "question": "Question description",
+            "answer": "Answer"
+        },
+        "save": "Save"
+    },
+    "chagePass": {
+        "title": "Change Password",
+        "current": "Current password",
+        "new": "New password",
+        "confirm": "Confirm password",
+        "save": "Save",
+        "close": "Close"
+    }
+}
